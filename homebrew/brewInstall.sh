@@ -20,7 +20,8 @@ brew install gh
 brew install git
 brew install zsh
 brew install zsh-completions
-brew install docker
+brew install gpg
+brew install azure-cli
 
 
 echo "Installing apps via Homebrew..."; echo;
@@ -31,6 +32,7 @@ brew install --cask gitkraken
 brew install --cask visual-studio-code
 brew install --cask jetbrains-toolbox
 brew install --cask dotnet-sdk
+brew install --cask paw
 
 #brew tap homebrew/cask-fonts
 #brew install --cask font-hack-nerd-font
