@@ -26,7 +26,7 @@ if [ -d ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-nvm/ ]; then
     git clone https://github.com/lukechilds/zsh-nvm ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-nvm
 fi
 
-# Install zsh-nvm plugin
+# Install zsh-autosuggestion plugin
 if [ -d ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/ ]; then
     echo "zsh-nvm installed"
  else
