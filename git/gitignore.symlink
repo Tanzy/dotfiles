@@ -2,3 +2,4 @@
 *~
 *.swp
 *.[Cc]odurance.sln
+.sonarqube/

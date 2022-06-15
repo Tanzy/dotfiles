@@ -31,11 +31,7 @@ brew install --cask charles
 brew install --cask gitkraken
 brew install --cask visual-studio-code
 brew install --cask jetbrains-toolbox
-brew install --cask dotnet-sdk
 brew install --cask paw
-
-#brew tap homebrew/cask-fonts
-#brew install --cask font-hack-nerd-font
 
 # Update and Upgrade
 echo "Updating and upgrading Homebrew..."; echo;
