@@ -1,0 +1,27 @@
+# Local/private config goes in the include
+[include]
+        path = ~/.gitconfig.local
+        
+[user]
+        name = AUTHORNAME
+        email = AUTHOREMAIL
+[credential]
+        helper = GIT_CREDENTIAL_HELPER
+
+        # Local/private config goes in the include
+
+[credential]
+        helper = osxkeychain
+
+[hub]
+        protocol = https
+
+[commit]
+	gpgsign = true
+
+[gpg]
+	program = gpg
+
+[tag]
+	forceSignAnnotated = true
+

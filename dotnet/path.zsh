@@ -1,3 +1,3 @@
 
-export PATH="$PATH:/Users/kenlea/.dotnet/tools"
+export PATH="$PATH:/Users/$USER/.dotnet/tools"
 
