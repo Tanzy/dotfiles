@@ -27,11 +27,9 @@ brew install azure-cli
 echo "Installing apps via Homebrew..."; echo;
 # Install essential casks
 brew install --cask iterm2
-brew install --cask charles
 brew install --cask gitkraken
 brew install --cask visual-studio-code
 brew install --cask jetbrains-toolbox
-brew install --cask paw
 
 # Update and Upgrade
 echo "Updating and upgrading Homebrew..."; echo;
