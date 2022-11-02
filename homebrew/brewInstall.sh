@@ -30,6 +30,7 @@ brew install --cask iterm2
 brew install --cask gitkraken
 brew install --cask visual-studio-code
 brew install --cask jetbrains-toolbox
+brew install --cask mockoon
 
 # Update and Upgrade
 echo "Updating and upgrading Homebrew..."; echo;

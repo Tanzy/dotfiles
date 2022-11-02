@@ -1,4 +1,4 @@
-# Local/private config goes in the include
+# Common config goes in the include
 [include]
         path = ~/.gitconfig.local
         
