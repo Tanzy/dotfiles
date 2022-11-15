@@ -7,15 +7,6 @@ if [ -d ~/.oh-my-zsh ]; then
  	echo "oh-my-zsh is not installed so installing it"
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
 
-    #cd $DOTFILES
-fi
-
-# Install Powerlevel 10K
-if [ -d ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k/ ]; then
-    echo "Powerlevel10K installed"
- else
-    echo "Powerlevel10K not installed@"
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 fi
 
 # Install zsh-nvm plugin
@@ -28,10 +19,18 @@ fi
 
 # Install zsh-autosuggestion plugin
 if [ -d ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/ ]; then
-    echo "zsh-nvm installed"
+    echo "zsh-autosuggestion installed"
  else
-    echo "zsh-nvm not installed@"
+    echo "zsh-autosuggestion not installed@"
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+fi
+
+# Install zsh-syntax-highlighting plugin
+if [ -d ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/ ]; then
+    echo "zsh-syntax-highlighting installed"
+ else
+    echo "zsh-syntax-highlighting not installed@"
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 fi
 
 
