@@ -7,3 +7,5 @@ alias projects='cd ~/repo'
 alias work='cd $PROJECTS/work'
 
 alias home='cd ~/'
+
+alias editdot='code ~/.dotfiles'
