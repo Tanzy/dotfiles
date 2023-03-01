@@ -25,7 +25,7 @@ brew install zsh-completions
 brew install starship
 brew install gpg
 brew install azure-cli
-
+brew install ngrok/ngrok/ngrok
 
 echo "Installing apps via Homebrew..."; echo;
 # Install essential casks
