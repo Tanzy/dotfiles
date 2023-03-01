@@ -1,0 +1,45 @@
+add_newline = false
+ 
+format = """
+╭[](cyan)$time[ | ](bg:cyan)$username[](fg:cyan bg:white)[$hostname](bg:white fg:black)[](white) $c
+╰──$character"""
+right_format = "$cmd_duration"
+ 
+[character]
+success_symbol = "[0]()"
+error_symbol = "[1](bold red)"
+ 
+[directory.substitutions]
+"~" = "Home"
+ 
+[c]
+symbol = ""
+style = "bg:cyan"
+format = "[[](blue)[$symbol](bg:blue fg:white)[](fg:blue bg:white)$version](fg:black bg:white)[](white)"
+ 
+[username]
+disabled = false
+style_root = "bg:cyan"
+style_user = "bg:cyan"
+format = "[$user]($style)"
+show_always = true
+ 
+[hostname]
+disabled = false
+format = "$hostname"
+ssh_only = false
+ 
+[cmd_duration]
+disabled = false
+format = "[](white)[took $duration](bg:white fg:black)[](white)"
+ 
+[time]
+disabled = false
+use_12hr = true
+style = "bg:cyan"
+format = "[$time]($style)"
+ 
+[localip]
+ssh_only = false
+disabled = false
+format = "on [$localipv4](bold red)"
