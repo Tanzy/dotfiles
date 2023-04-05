@@ -26,6 +26,7 @@ brew install starship
 brew install gpg
 brew install azure-cli
 brew install ngrok/ngrok/ngrok
+brew install openjdk
 
 echo "Installing apps via Homebrew..."; echo;
 # Install essential casks
