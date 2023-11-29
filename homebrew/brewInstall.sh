@@ -27,6 +27,7 @@ brew install gpg
 brew install azure-cli
 brew install ngrok/ngrok/ngrok
 brew install openjdk
+brew install gitkraken-cli
 
 echo "Installing apps via Homebrew..."; echo;
 # Install essential casks
@@ -35,7 +36,6 @@ brew install --cask gitkraken
 brew install --cask visual-studio-code
 brew install --cask jetbrains-toolbox
 brew install --cask mockoon
-brew install --cask font-jetbrains-mono-nerd-font
 
 
 # Update and Upgrade
