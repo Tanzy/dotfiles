@@ -24,18 +24,18 @@ brew install zsh
 brew install zsh-completions
 brew install starship
 brew install gpg
-brew install azure-cli
-brew install ngrok/ngrok/ngrok
+#brew install azure-cli
+#brew install ngrok/ngrok/ngrok
 brew install openjdk
-brew install gitkraken-cli
 
 echo "Installing apps via Homebrew..."; echo;
 # Install essential casks
 brew install --cask iterm2
-brew install --cask gitkraken
+#brew install --cask gitkraken
 brew install --cask visual-studio-code
 brew install --cask jetbrains-toolbox
 brew install --cask mockoon
+brew install --cask bruno
 
 
 # Update and Upgrade
