@@ -32,6 +32,7 @@ echo "Installing apps via Homebrew..."; echo;
 # Install essential casks
 brew install --cask iterm2
 #brew install --cask gitkraken
+brew install --cask fork
 brew install --cask visual-studio-code
 brew install --cask jetbrains-toolbox
 brew install --cask mockoon
