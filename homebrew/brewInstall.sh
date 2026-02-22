@@ -13,9 +13,6 @@ else
   echo "Homebrew is already installed...";
 fi
 
-# Add Casks
-brew tap homebrew/cask-fonts
-
 echo "Installing brews from Homebrew..."; echo;
 # Install the essential brews
 brew install gh
